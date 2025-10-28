@@ -1,0 +1,29 @@
+.Loading {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 20;
+}
+.LoadingContainer {
+    height: 30%;
+    display: grid;
+    grid-template-rows: 30vh 30vh 10vh;
+}
+
+.LoadingIcon {
+    grid-row: 2 / 3;
+    z-index: 101;
+    transition: background-color 2s;
+}
+.LoadingText {
+    font-size: 40px;
+    grid-row: 3 / 4;
+    text-align: center;
+    font-family: JosefinSans;
+    color: white;
+    font-weight: 400;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}

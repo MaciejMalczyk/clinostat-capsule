@@ -1,0 +1,9 @@
+services:
+    app:
+        image: clinostate_images
+        restart: unless-stopped
+        network_mode: host
+        container_name: images
+        volumes:
+            - ~/images:/images # Edit ~/images to any dir you want
+
