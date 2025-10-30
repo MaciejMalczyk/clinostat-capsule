@@ -1,8 +1,0 @@
-[Unit]
-Description=NetTest service
-
-[Service]
-ExecStart=/usr/bin/bash NetTest.sh
-
-[Install]
-WantedBy=multi-user.target

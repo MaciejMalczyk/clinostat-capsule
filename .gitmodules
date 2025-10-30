@@ -1,0 +1,6 @@
+[submodule "controller"]
+	path = controller
+	url = git@github.com:MaciejMalczyk/controller.git
+[submodule "sensors"]
+	path = sensors
+	url = git@github.com:MaciejMalczyk/sensors.git
