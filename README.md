@@ -10,7 +10,6 @@ MongoDB database and MongoDB Compass for inspecting the data. The database shoul
 <img src="./schematic.png"></img>
 
 ## Information
-Additional information about the device can be found in article:
+Additional information about the device can be found in the article:
 
 https://www.mdpi.com/2076-3417/14/20/9517
-
