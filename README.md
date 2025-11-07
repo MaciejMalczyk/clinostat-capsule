@@ -4,7 +4,7 @@ Unified repository for a dispersed clinostat system. Each submodule/dir has its 
 
 ## Requirements
 
-MongoDB database and MongoDB Compass for inspecting the data. The database should run alongside a Docker container for images on the same device.
+Each submodule has its own requirements. Additionally you need to install MongoDB database and MongoDB Compass for inspecting the data. The database should run alongside a Docker container for images on the same device.
 
 ## Architecture
 <img src="./schematic.png"></img>
